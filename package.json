@@ -1,0 +1,21 @@
+{
+  "name": "gh-taskbar",
+  "version": "0.1.0",
+  "description": "GitHub Actionsの状況をWindowsタスクトレイで通知するElectronアプリ",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "tsc && copy src\\icon.png dist\\icon.png"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/electron": "^1.4.38",
+    "@types/node": "^22.15.30",
+    "electron": "^29.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
